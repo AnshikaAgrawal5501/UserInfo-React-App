@@ -35,3 +35,12 @@ p {
     display: inline !important;
     font-size: 1.1rem !important;
 }
+
+@media (max-width: 425px) {
+    .navbar-brand {
+        font-size: 45px !important;
+    }
+    .px-5 {
+        padding: 0 1.75rem !important;
+    }
+}
