@@ -44,3 +44,12 @@ p {
         padding: 0 1.75rem !important;
     }
 }
+
+@media (max-width: 395px) {
+    .navbar-brand {
+        font-size: 40px !important;
+    }
+    .btn {
+        padding: 0.4rem 0.8rem !important;
+    }
+}
