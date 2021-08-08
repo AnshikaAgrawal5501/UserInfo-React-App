@@ -31,10 +31,10 @@ function App() {
                 <div
                 style={{
                     width: "100%",
+                    height: "100%",
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    marginTop:"30vh"
                 }}
                 >
                 <Loader type="ThreeDots" color="#dc3545" height="150" width="150" />
