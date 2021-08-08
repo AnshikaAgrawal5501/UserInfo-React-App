@@ -3,7 +3,7 @@ import Navigationbar from './NavBar';
 import Main from './Main';
 import Users from './Users';
 import { trackPromise } from 'react-promise-tracker'
-import Loader from 'react-loader-spinner';
+import LoadingIndicator from './Loader';
 
 function App() {
 
@@ -23,23 +23,6 @@ function App() {
         setTimeout(function() {
             loaded(false);
         },750);
-    }
-
-    function LoadingIndicator () {
-    
-        return (
-                <div
-                style={{
-                    width: "100%",
-                    height: "100%",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                }}
-                >
-                <Loader type="ThreeDots" color="#dc3545" height="150" width="150" />
-                </div>
-        );  
     }
 
     return (
